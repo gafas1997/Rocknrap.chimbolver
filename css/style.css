@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+.spicy-rice-regular {
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+*{
+    margin: 0;
+    padding:0;
+    font-size: 14px;
+}
+nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: black;
+}
+
+.main {
+    max-width: 80%;
+    margin: 4rem auto 0 auto;
+}
+
+.main-flex {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+   color: #fff;
+   font-size: 24px;
+   font-family: "Spicy Rice", serif;
+   list-style: none;
+   margin: 0 10px;
+   /* padding: 5px 10px; */
+   width: 20%;
+   text-align: center;
+    text-shadow:
+    0 0 5px #ffb6c1,
+    0 0 10px #ffb6c1
+}
+nav ul li a {
+   color: #fff;
+   font-size: 24px;
+   font-family: "Spicy Rice", serif;
+   list-style: none;
+   margin: 0 10px;
+   /* padding: 5px 10px; */
+   width: 20%;
+   text-align: center;
+    text-shadow:
+    0 0 5px #ffb6c1,
+    0 0 10px #ffb6c1
+}
+
+li.logo {
+    width: 50%;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+li.logo img {
+    margin: 0;
+    display: block;
+}
+
+nav {
+    max-width: 80%;
+    margin: 3rem auto 0 auto;
+}
+
+
+.main-flex > .main-flex_items:nth-child(1) {
+    width: 70%;
+}
+.main-flex > .main-flex_items:nth-child(2) {
+    width: 30%;
+}
+
+p {
+    color: #fff;
+    font-size: 14px;
+    margin: 1rem 0;
+    font-family: arial;
+}
+
+h1 {
+    font-size: 32px;
+    color: #fff;
+    font-family: "Spicy Rice", serif;
+    margin: 2rem  auto;
+}
+footer {
+    /* background: red; */
+    max-width: 80%;
+    margin: 4rem auto 0rem auto;
+}
+
+.lugar-container {
+    display: flex;
+    background: #fcaeae;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0 3rem 0;
+}
+
+h2 {
+    color: #fff;
+    font-size: 24px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.lugar-container-items.fecha p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.lugar-container-items h2, .lugar-container-items p {
+    text-transform: capitalize;
+}
+@media (max-width: 768px) {
+    nav {
+    max-width: 95%;
+    margin: 1rem auto 0 auto;
+}
+  nav ul {
+    flex-wrap: wrap;
+}
+
+nav ul li.logo {
+    width: 82%;
+}
+
+nav ul li {
+    font-size: 20px;
+    width: 16%;
+}  
+    
+.main-flex {
+    flex-direction: column;
+}
+.main{
+    max-width: 90%;
+    margin: 1rem auto 0 auto;
+}
+.main-flex > .main-flex_items:nth-child(1),.main-flex > .main-flex_items:nth-child(2)  {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+h1 {
+    font-size: 27px;
+    margin: 1rem auto;
+}
+footer {
+    /* background: red; */
+    max-width: 90%;
+    margin: 2rem auto 0rem auto;
+}
+
+.lugar-container-items h2, .lugar-container-items p {
+    font-size: 17px !IMPORTANT;
+    margin: 0rem auto 1rem auto;
+}
+
+.lugar-container {
+    flex-direction: column;
+    padding: 1rem 0 0rem 0;
+    margin: 0 0 2rem 0;
+}
+    .lugar-container + p, .lugar-container + p+p, .lugar-container + p + p + p {
+    text-align: center;
+}
+}
+
